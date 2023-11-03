@@ -58,7 +58,7 @@
 			var days = 730; // days until cookie expires = 2 years.
 			var lastvisit=new Object();
 			var firstvisitmsg="This is your first visit to this page. Thank you for visiting!"; 
-			lastvisit.subsequentvisitmsg="Thank you for visiting again! Your previous visit was on <b>[displaydate]</b>";
+			lastvisit.subsequentvisitmsg="Thank you for visiting again! Your last visit was on <b>[displaydate]</b>";
 			   
 			lastvisit.getCookie=function(Name){ 
 			var re=new RegExp(Name+"=[^;]+", "i"); 
@@ -113,7 +113,7 @@
 			}
 			
 			lastvisit.showmessage();
-	</style>	
+		</style>	
 	</script>
 		<br>
 		<p><center>Contact me at <a href="mailto:shawar.ali@mail.utoronto.ca">shawar.ali@mail.utoronto.ca.</a></center></p>
